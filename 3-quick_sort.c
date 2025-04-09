@@ -24,13 +24,13 @@ i++;
 temp = array[i];
 array[i] = array[j];
 array[j] = temp;
-print_array(array, size);
 }
 }
 /* Swap the pivot element to its correct position */
 temp = array[i + 1];
 array[i + 1] = array[high];
 array[high] = temp;
+/* Print the array after moving the pivot */
 print_array(array, size);
 return (i + 1);
 }
