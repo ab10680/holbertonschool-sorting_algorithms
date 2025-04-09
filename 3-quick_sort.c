@@ -24,6 +24,7 @@ i++;
 temp = array[i];
 array[i] = array[j];
 array[j] = temp;
+print_array(array, size); /* Print after each swap */
 }
 }
 /* Swap the pivot element to its correct position */
